@@ -1,0 +1,163 @@
+* {
+
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    display: inline-block
+}
+
+
+a {
+    color: #989D9C;
+    font-family: Montserrat;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 600;   
+    margin: 56px 23px 0 0;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.4;
+}
+
+.home {
+    margin-left: 60px;
+}
+
+.login {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    border: none        ;
+}
+
+.login:hover {
+    opacity: 0.6;
+}
+
+.login:active {
+    opacity: 0.4;
+}
+
+section {
+    display: inline-block;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+}
+
+aside {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 513px;
+    height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 448;
+    height: 71px;
+}
+
+p {
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 514px;
+    height: 87px;
+}
+
+.explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.explore:hover {
+    opacity: 0.6;
+}
+
+.explore:active {
+    opacity: 0.4;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        margin-top: 149px;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 7px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 17px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .explore {
+        width: 239px;
+        height: 64px;
+    }
+}
+
